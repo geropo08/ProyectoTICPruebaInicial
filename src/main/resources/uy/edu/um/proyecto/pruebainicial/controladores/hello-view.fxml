@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uy.edu.um.proyecto.pruebainicial.controladores.inicioController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <Label fx:id="lbl_nombre" text="Nombre" />
+      <TextField fx:id="input_nombre" />
+      <Label fx:id="lbl_apellido" text="Apellido" />
+      <TextField fx:id="input_apellido" />
+   
+     <Label fx:id="welcomeText" />
+     <Button fx:id="button_OK" onAction="#onOKButtonClick" text="OK" />
+   </children>
+</VBox>
