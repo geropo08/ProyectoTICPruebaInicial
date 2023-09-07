@@ -16,11 +16,6 @@ public class PruebainicialApplication {
 		//SpringApplication.run(PruebainicialApplication.class, args);
 		Application.launch(Hola.class, args);
 	}
-	@Bean
-    public FxWeaver fxWeaver(ConfigurableApplicationContext applicationContext) {
-        // Would also work with javafx-weaver-core only:
-        // return new FxWeaver(applicationContext::getBean, applicationContext::close);
-        return new SpringFxWeaver(applicationContext); 
-    }
+	
 
 }
