@@ -6,8 +6,9 @@ import org.springframework.stereotype.Component;
 
 import net.rgielen.fxweaver.core.FxWeaver;
 import net.rgielen.fxweaver.spring.SpringFxWeaver;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+@Configuration
 public class BeansApplication {
     @Bean
     public FxWeaver fxWeaver(ConfigurableApplicationContext applicationContext) {

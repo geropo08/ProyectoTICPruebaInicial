@@ -47,7 +47,7 @@ public class inicioController {
 
         //personaServicio.createPerson("Geronimo", "Garcia");
 		personaServicio.createPerson(input_nombre.getText(), input_apellido.getText());
-
+        
     }
 
 }

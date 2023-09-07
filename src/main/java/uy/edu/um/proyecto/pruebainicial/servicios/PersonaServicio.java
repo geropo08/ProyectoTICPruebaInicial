@@ -8,13 +8,8 @@ import uy.edu.um.proyecto.pruebainicial.repositorios.PersonaRepositorio;
 
 @Service
 public class PersonaServicio {
-    
-    private PersonaRepositorio personRepository;
-
     @Autowired
-    public PersonaServicio(PersonaRepositorio personRepository) {
-        this.personRepository = personRepository;
-    }
+    private PersonaRepositorio personRepository;
 
     public Persona createPerson(String firstName, String lastName) {
         Persona person = new Persona();
@@ -22,4 +17,6 @@ public class PersonaServicio {
         person.setApellido(lastName);
         return personRepository.save(person);
     }
+    
+   
 }
