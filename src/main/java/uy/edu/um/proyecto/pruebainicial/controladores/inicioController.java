@@ -2,7 +2,7 @@ package uy.edu.um.proyecto.pruebainicial.controladores;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
+
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,7 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import net.rgielen.fxweaver.core.FxmlView;
-import net.rgielen.fxweaver.core.FxWeaver;
+
 import uy.edu.um.proyecto.pruebainicial.servicios.PersonaServicio;
 
 @Component
